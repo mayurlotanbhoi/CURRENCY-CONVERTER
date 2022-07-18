@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>CURRENCY CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="head">
+            <div>Currency Converter</div>
+        </div>
+
+
+        <div class="inputfild">
+            <div class="inputdiv">
+                <div class="enter">Enter Amount</div>
+                <input class="input" type="text">
+            </div>
+        </div>
+
+        <div class="options">
+            <div class="images">
+                <div class="enter">from</div>
+                <div class="selectsec">
+                    <!-- <img src="https://flagcdn.com/24x18/za.png" srcset="https://flagcdn.com/48x36/za.png 2x,
+                      https://flagcdn.com/72x54/za.png 3x" width="24" height="18" alt="South Africa"> -->
+
+                    <select>
+                    
+                    
+                </select>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="images">
+                <div class="enter">to</div>
+
+                <div class="selectsec">
+
+                    <select class="select">
+                  
+                </select>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="calcu">
+            <span class="from">you can see rate here</span>
+            <!-- <span class="to">65 nra</span> -->
+        </div>
+
+        <button class="btn" onclick="convertAmount()">Exchange</button>
+
+        <div class="datalast">
+            <span class="update">Last update date</span>
+            <span class="date"></span>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
